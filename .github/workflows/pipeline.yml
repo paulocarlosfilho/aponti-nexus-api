@@ -39,9 +39,6 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Compilar o código
-        run: npm run build
-
   lint-and-quality:
     name: 2. Lint & Quality
     needs: build
