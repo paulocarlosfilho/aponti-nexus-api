@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "echo 'OK'",
     "test": "jest",
     "lint": "eslint src/ index.js",
     "start": "nodemon index.js"
